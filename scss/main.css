@@ -89,14 +89,14 @@
   }
 }
 @media (max-width: 770px) {
-  .foter {
+  .footer-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .foter ul {
+  .footer-main ul {
     text-align: center;
     padding-inline: 0;
   }
@@ -128,7 +128,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   height: 40vh;
   margin-bottom: 1rem;
   padding-bottom: 15vh;
@@ -153,6 +153,7 @@ ul {
   font-weight: 600;
   font-size: 40px;
   line-height: 72px;
+  padding-top: 70px;
 }
 
 .button-line {
@@ -213,18 +214,13 @@ ul {
   color: #000000;
 }
 
-@media (max-width: 1280px) {
-  .offer-section {
-    display: flex;
-    align-items: center;
-  }
-}
 @media (max-width: 992px) {
   .offer-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
   }
 }
 .offer-section .offer-layout {
@@ -233,7 +229,6 @@ ul {
   background: #FFFFFF;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
   border-radius: 50px;
-  padding: 20px;
 }
 .offer-section .offer-layout .img-date {
   display: flex;
@@ -273,4 +268,27 @@ ul {
 
 .star-pos {
   margin-bottom: 5px;
+}
+
+.rectangle {
+  left: 130px;
+  top: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 50px 50px 50px;
+}
+.rectangle .rectangle-1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 381.59px;
+  height: 154px;
+  left: 178px;
+  top: 160px;
+  background: #FFFFFF;
+  border: 2px solid rgba(172, 172, 172, 0.5);
+  border-radius: 25px;
+}
+
+.btn-place {
+  border: 1px dashed rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=main.css.map */
